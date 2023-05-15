@@ -1,0 +1,154 @@
+body {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    background-color: rgb(201, 248, 202);
+    color: rgb(27, 58, 21);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: rgb(27, 58, 21);
+    padding: 15px 30px 15px 70px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+    align-items: center;
+
+}
+
+li {
+    margin: 0px;
+    flex: 0 0 auto;
+}
+
+.logo {
+    color: white;
+    margin-right: auto;
+    font-size: 26px;
+    transition-duration: 1.2s;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+.linkhead {
+    text-decoration: none;
+    color: rgb(201, 248, 202);
+    transition-duration: 1.2s;
+}
+
+.linkhead:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+.headshot {
+    height: 300px;
+    width: auto;
+}
+
+.hero {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotext {
+    border: 4px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 12px;
+    height: 200px;
+    width: 500px;
+    flex: 0 1 auto;
+    margin-right: 100px;
+    padding: 45px;
+}
+
+button {
+    background-color: rgb(27, 58, 21);
+    border: none;
+    color: rgb(201, 248, 202);
+    font-weight: 700;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 12px;;
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(201, 248, 202);
+    color: rgb(27, 58, 21);
+    border-color: black;
+    border-radius: 12px;
+    border: 4px;
+    border-style: solid;
+}
+
+.headshot {
+    border-radius: 12px;
+}
+
+.section2 {
+    background-color: rgb(77, 142, 64);
+    color:rgb(201, 248, 202);
+    display: flex;
+    flex-direction: column;
+}
+
+.section2head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardimg {
+    height: 200px;
+    width: 200px;
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(201, 248, 202);
+    border-radius: 20px;
+    
+}
+
+.cardtxt {
+    text-align: center;
+}
+
+
+
