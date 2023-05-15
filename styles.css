@@ -60,6 +60,11 @@ li {
 .headshot {
     height: 300px;
     width: auto;
+    transition-duration: .8s;
+}
+
+.headshot:hover {
+    box-shadow: 0 0 15px rgb(6, 63, 22); 
 }
 
 .hero {
@@ -119,7 +124,13 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 1.2s;
 
+}
+
+.section2head:hover {
+    text-decoration: none;
+    color: pink;
 }
 
 .cards {
@@ -143,11 +154,54 @@ button:hover {
     border-style: solid;
     border-color: rgb(201, 248, 202);
     border-radius: 20px;
+    transition-duration: .7s;
     
+}
+
+.cardimg:hover {
+    box-shadow: 0 0 22px rgb(6, 63, 22); 
 }
 
 .cardtxt {
     text-align: center;
+}
+
+.section3 {
+    background-color: rgb(201, 248, 202);
+    color: rgb(27, 58, 21);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 30px;
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 100px;
+    transition-duration: 1.2s;
+}
+
+.quote:hover {
+    text-decoration: none;
+    color: rgb(182, 64, 182);
+}
+
+.quote1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nameq {
+    text-align: right;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 100px;
 }
 
 
