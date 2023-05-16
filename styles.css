@@ -69,7 +69,7 @@ li {
 
 .hero {
     display: flex;
-    padding: 15px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -118,6 +118,7 @@ button:hover {
     color:rgb(201, 248, 202);
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .section2head {
@@ -159,7 +160,7 @@ button:hover {
 }
 
 .cardimg:hover {
-    box-shadow: 0 0 22px rgb(6, 63, 22); 
+    box-shadow: 0 0 22px pink; 
 }
 
 .cardtxt {
@@ -187,7 +188,6 @@ button:hover {
 }
 
 .quote:hover {
-    text-decoration: none;
     color: rgb(182, 64, 182);
 }
 
@@ -204,5 +204,40 @@ button:hover {
     padding-right: 100px;
 }
 
+.section4 {
+    background-color: rgb(77, 142, 64);
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: rgb(201, 248, 202);
+    display: flex;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 100px;
+}
+
+.contacthead {
+    font-size: 20px;
+    font-weight: 1000;
+    transition-duration: 1.2s;
+}
+
+.contacthead:hover {
+    color: rgb(182, 64, 182);
+}
+
+.footer {
+    background-color: rgb(27, 58, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:rgb(201, 248, 202);
+}
 
 
